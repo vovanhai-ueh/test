@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Bộ kiểm thử Buoi09. KHÔNG SỬA TỆP NÀY. -->
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <RootNamespace>KiemThu.Buoi09</RootNamespace>
+    <NoWarn>$(NoWarn);xUnit1025;xUnit1026;CS8981</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../Chung/*.cs" Link="Chung/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Buoi09/Buoi09_A1/Buoi09_A1.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_A2/Buoi09_A2.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_A3/Buoi09_A3.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_A4/Buoi09_A4.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_A5/Buoi09_A5.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_A6/Buoi09_A6.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B1/Buoi09_B1.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B2/Buoi09_B2.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B3/Buoi09_B3.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B4/Buoi09_B4.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B5/Buoi09_B5.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B6/Buoi09_B6.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B7/Buoi09_B7.csproj" />
+    <ProjectReference Include="../../Buoi09/Buoi09_B8/Buoi09_B8.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Bộ kiểm thử Buoi01. KHÔNG SỬA TỆP NÀY. -->
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <RootNamespace>KiemThu.Buoi01</RootNamespace>
+    <NoWarn>$(NoWarn);xUnit1025;xUnit1026;CS8981</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../Chung/*.cs" Link="Chung/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Buoi01/Buoi01_A1/Buoi01_A1.csproj" />
+    <ProjectReference Include="../../Buoi01/Buoi01_A2/Buoi01_A2.csproj" />
+    <ProjectReference Include="../../Buoi01/Buoi01_A3/Buoi01_A3.csproj" />
+    <ProjectReference Include="../../Buoi01/Buoi01_A4/Buoi01_A4.csproj" />
+    <ProjectReference Include="../../Buoi01/Buoi01_A5/Buoi01_A5.csproj" />
+    <ProjectReference Include="../../Buoi01/Buoi01_B1/Buoi01_B1.csproj" />
+    <ProjectReference Include="../../Buoi01/Buoi01_B2/Buoi01_B2.csproj" />
+    <ProjectReference Include="../../Buoi01/Buoi01_B3/Buoi01_B3.csproj" />
+  </ItemGroup>
+</Project>

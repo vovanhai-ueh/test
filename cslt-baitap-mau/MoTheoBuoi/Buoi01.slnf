@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "path": "..\\BaiTapCSLT.sln",
+    "projects": [
+      "Buoi01\\Buoi01_A1\\Buoi01_A1.csproj",
+      "Buoi01\\Buoi01_A2\\Buoi01_A2.csproj",
+      "Buoi01\\Buoi01_A3\\Buoi01_A3.csproj",
+      "Buoi01\\Buoi01_A4\\Buoi01_A4.csproj",
+      "Buoi01\\Buoi01_A5\\Buoi01_A5.csproj",
+      "Buoi01\\Buoi01_B1\\Buoi01_B1.csproj",
+      "Buoi01\\Buoi01_B2\\Buoi01_B2.csproj",
+      "Buoi01\\Buoi01_B3\\Buoi01_B3.csproj",
+      "KiemThu\\Buoi01.KiemThu\\Buoi01.KiemThu.csproj"
+    ]
+  }
+}

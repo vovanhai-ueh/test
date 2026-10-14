@@ -1,0 +1,137 @@
+# Kiểm thử tự động bài tập CSLT. KHÔNG SỬA TỆP NÀY.
+# Chạy khi mở/cập nhật Pull Request vào main, hoặc chạy tay ở tab Actions.
+name: Kiểm thử tự động
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      buoi:
+        description: 'Buổi cần kiểm thử: tat-ca, hoặc số buổi (ví dụ 5 hoặc 3,5)'
+        required: true
+        default: tat-ca
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: kiem-thu-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+env:
+  DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+  # Giảng viên đổi thành 'true' nếu muốn bài "Chưa làm" cũng chặn merge.
+  CHUA_LAM_LA_LOI: 'false'
+
+jobs:
+  chuan-bi:
+    name: Chuẩn bị
+    runs-on: ubuntu-latest
+    outputs:
+      buoi: ${{ steps.chon.outputs.buoi }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Chọn buổi cần kiểm thử, kiểm tra tệp được bảo vệ
+        id: chon
+        run: python3 .github/scripts/chon_buoi.py
+        env:
+          SU_KIEN: ${{ github.event_name }}
+          GOC: ${{ github.event.pull_request.base.sha }}
+          DAU: ${{ github.event.pull_request.head.sha }}
+          NHAP: ${{ github.event.inputs.buoi }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chuan-bi
+          path: KetQua/chuan-bi.json
+
+  kiem-thu:
+    name: Kiểm thử ${{ matrix.buoi }}
+    needs: chuan-bi
+    if: needs.chuan-bi.outputs.buoi != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        buoi: ${{ fromJSON(needs.chuan-bi.outputs.buoi) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Dùng bộ kiểm thử gốc của nhánh main
+        if: github.event_name == 'pull_request'
+        run: git checkout ${{ github.event.pull_request.base.sha }} -- KiemThu Directory.Build.props .github/scripts
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Biên dịch ${{ matrix.buoi }}
+        id: build
+        continue-on-error: true
+        run: |
+          mkdir -p KetQua
+          set -o pipefail
+          dotnet build KiemThu/${{ matrix.buoi }}.KiemThu -c Release -nologo 2>&1 | tee KetQua/build.log
+          touch KetQua/build.ok
+
+      - name: Chạy kiểm thử
+        if: steps.build.outcome == 'success'
+        continue-on-error: true
+        run: >
+          dotnet test KiemThu/${{ matrix.buoi }}.KiemThu -c Release --no-build
+          --results-directory KetQua
+          --logger "trx;LogFileName=${{ matrix.buoi }}.trx"
+          --logger "html;LogFileName=${{ matrix.buoi }}.html"
+          --blame-hang-timeout 5m
+
+      - name: Lập báo cáo
+        if: always()
+        run: python3 .github/scripts/bao_cao.py --buoi ${{ matrix.buoi }} --thu-muc KetQua
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ket-qua-${{ matrix.buoi }}
+          path: KetQua/
+          retention-days: 30
+
+  tong-hop:
+    name: Tổng hợp kết quả
+    needs: [chuan-bi, kiem-thu]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: TatCa
+
+      - name: Tổng hợp
+        run: python3 .github/scripts/tong_hop.py TatCa
+        env:
+          SHA_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Bình luận vào Pull Request
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body-file TatCa/binh-luan.md --edit-last \
+            || gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body-file TatCa/binh-luan.md
+
+      - name: Kết luận
+        run: python3 .github/scripts/tong_hop.py TatCa --ket-luan

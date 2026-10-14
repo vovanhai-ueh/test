@@ -1,0 +1,1271 @@
+{
+ "Buoi01": [
+  {
+   "bai": "A1",
+   "ten": "Buoi01_A1",
+   "tieuDe": "Cài đặt và chạy chương trình đầu tiên",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi01_A2",
+   "tieuDe": "Thẻ sinh viên",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi01_A3",
+   "tieuDe": "Vẽ hình bằng ký tự",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi01_A4",
+   "tieuDe": "Săn lỗi biên dịch",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi01_A5",
+   "tieuDe": "Từ lưu đồ đến chương trình",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi01_B1",
+   "tieuDe": "Thời khóa biểu",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi01_B2",
+   "tieuDe": "Thiệp chúc mừng",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi01_B3",
+   "tieuDe": "Sửa lỗi chương trình",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  }
+ ],
+ "Buoi02": [
+  {
+   "bai": "A1",
+   "ten": "Buoi02_A1",
+   "tieuDe": "Khảo sát giới hạn các kiểu số",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi02_A2",
+   "tieuDe": "Hình chữ nhật nhập từ bàn phím",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi02_A3",
+   "tieuDe": "Đổi số giây ra giờ, phút, giây",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi02_A4",
+   "tieuDe": "Hóa đơn thẳng cột",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi02_A5",
+   "tieuDe": "Các bẫy chia nguyên và ép kiểu",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi02_A6",
+   "tieuDe": "Biểu thức logic: năm nhuận và tam giác",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi02_B1",
+   "tieuDe": "Đổi nhiệt độ",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi02_B2",
+   "tieuDe": "Chỉ số BMI",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi02_B3",
+   "tieuDe": "Khoảng cách giữa hai điểm",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi02_B4",
+   "tieuDe": "Tách các chữ số của số có 3 chữ số",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi02_B5",
+   "tieuDe": "Hoán đổi hai biến",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi02_B6",
+   "tieuDe": "Tiền gửi tiết kiệm lãi kép",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi02_B7",
+   "tieuDe": "Làm tròn đến hàng nghìn",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi02_B8",
+   "tieuDe": "Thứ trong tuần của một ngày",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  }
+ ],
+ "Buoi03": [
+  {
+   "bai": "A1",
+   "ten": "Buoi03_A1",
+   "tieuDe": "Hàm đầu tiên",
+   "ham": [
+    "void InTieuDe(string tieuDe)",
+    "double TinhDienTichHinhTron(double banKinh)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi03_A2",
+   "tieuDe": "Hàm nhập liệu dùng lại được",
+   "ham": [
+    "double NhapSoThuc(string loiNhac)",
+    "int NhapSoNguyen(string loiNhac)",
+    "double TinhChuVi(double dai, double rong)",
+    "double TinhDienTich(double dai, double rong)",
+    "double TinhDuongCheo(double dai, double rong)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi03_A3",
+   "tieuDe": "Mô-đun hóa chương trình hóa đơn",
+   "ham": [
+    "decimal TinhThanhTien(int soLuong, decimal donGia)",
+    "decimal TinhThue(decimal tien)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi03_A4",
+   "tieuDe": "Thí nghiệm tham trị và ref",
+   "ham": [
+    "void Tang(int x)",
+    "void TangRef(ref int x)",
+    "void HoanDoi(ref int a, ref int b)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi03_A5",
+   "tieuDe": "Tham số out: tách chữ số",
+   "ham": [
+    "void TachChuSo(int n, out int tram, out int chuc, out int donVi)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi03_A6",
+   "tieuDe": "Nạp chồng và tham số mặc định",
+   "ham": [
+    "double DienTich(double canh)",
+    "double DienTich(double dai, double rong)",
+    "double DienTich(double a, double b, double c)",
+    "double TinhTienLai(double tienGui, double laiSuat = 0.06, int soNam = 1)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi03_B1",
+   "tieuDe": "Hàm đổi nhiệt độ hai chiều",
+   "ham": [
+    "double DoiCsangF(double c)",
+    "double DoiFsangC(double f)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi03_B2",
+   "tieuDe": "Hàm kiểm tra trả về bool",
+   "ham": [
+    "bool LaNamNhuan(int nam)",
+    "bool LaTamGiac(double a, double b, double c)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi03_B3",
+   "tieuDe": "Khoảng cách và chu vi tam giác",
+   "ham": [
+    "double KhoangCach(double x1, double y1, double x2, double y2)",
+    "double ChuViTamGiac(double xA, double yA, double xB, double yB, double xC, double yC)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi03_B4",
+   "tieuDe": "Hàm tổng chữ số và số đảo",
+   "ham": [
+    "int TongChuSo3(int n)",
+    "int SoDao3(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi03_B5",
+   "tieuDe": "Xoay vòng ba biến",
+   "ham": [
+    "void XoayVong(ref int a, ref int b, ref int c)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi03_B6",
+   "tieuDe": "Phương trình bậc hai với out",
+   "ham": [
+    "void GiaiPTBac2(double a, double b, double c, out double x1, out double x2)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi03_B7",
+   "tieuDe": "Số ngày giữa hai ngày",
+   "ham": [
+    "int SoNgayJulian(int ngay, int thang, int nam)",
+    "int SoNgayGiua(int ngay1, int thang1, int nam1, int ngay2, int thang2, int nam2)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi03_B8",
+   "tieuDe": "Thiết kế chương trình tính lương",
+   "ham": [
+    "double TinhLuongThang(double luongCoBan, double heSo, int ngayCong)",
+    "double TinhBaoHiem(double luongThang)",
+    "double TinhThucLinh(double luongThang)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  }
+ ],
+ "Buoi04": [
+  {
+   "bai": "A1",
+   "ten": "Buoi04_A1",
+   "tieuDe": "Phân loại số",
+   "ham": [
+    "string PhanLoaiSo(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi04_A2",
+   "tieuDe": "Xếp loại học lực có kiểm tra điểm",
+   "ham": [
+    "string XepLoai(double diem)"
+   ],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi04_A3",
+   "tieuDe": "Phương trình bậc nhất và bậc hai đầy đủ",
+   "ham": [
+    "string GiaiPTBac1(double a, double b)",
+    "string GiaiPTBac2(double a, double b, double c)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi04_A4",
+   "tieuDe": "Tên thứ và số ngày trong tháng (switch)",
+   "ham": [
+    "bool LaNamNhuan(int nam)",
+    "int SoNgayTrongThang(int thang, int nam)",
+    "string TenThu(int thu)",
+    "bool LaNgayHopLe(int ngay, int thang, int nam)",
+    "int ThuTrongTuan(int ngay, int thang, int nam)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi04_A5",
+   "tieuDe": "Máy tính bỏ túi",
+   "ham": [
+    "string TinhToan(double a, char phepToan, double b)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi04_A6",
+   "tieuDe": "Kiểm tra dữ liệu nhập với TryParse",
+   "ham": [
+    "bool NhapSoNguyen(string loiNhac, out int ketQua)",
+    "int TinhTuoi(int namSinh, int namHienTai)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi04_B1",
+   "tieuDe": "Số lớn nhất và nhỏ nhất trong 3 số",
+   "ham": [
+    "int TimMax3(int a, int b, int c)",
+    "int TimMin3(int a, int b, int c)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi04_B2",
+   "tieuDe": "Phân loại BMI",
+   "ham": [
+    "double TinhBMI(double canNang, double chieuCao)",
+    "string PhanLoaiBMI(double bmi)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi04_B3",
+   "tieuDe": "Tiền điện bậc thang",
+   "ham": [
+    "long TinhTienDien(int kwh)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi04_B4",
+   "tieuDe": "Phân loại tam giác",
+   "ham": [
+    "string PhanLoaiTamGiac(double a, double b, double c)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi04_B5",
+   "tieuDe": "Cước taxi",
+   "ham": [
+    "long TinhCuocTaxi(int km)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi04_B6",
+   "tieuDe": "Ngày hôm sau",
+   "ham": [
+    "bool LaNamNhuan(int nam)",
+    "int SoNgayTrongThang(int thang, int nam)",
+    "void NgayHomSau(ref int ngay, ref int thang, ref int nam)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi04_B7",
+   "tieuDe": "Hệ hai phương trình bậc nhất",
+   "ham": [
+    "string GiaiHePT(double a1, double b1, double c1, double a2, double b2, double c2)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi04_B8",
+   "tieuDe": "Đọc số có 3 chữ số thành chữ",
+   "ham": [
+    "string ChuSo(int d)",
+    "string DocSo3ChuSo(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  }
+ ],
+ "Buoi05": [
+  {
+   "bai": "A1",
+   "ten": "Buoi05_A1",
+   "tieuDe": "Tổng, đếm và chạy tay vòng lặp",
+   "ham": [
+    "int TongDen(int n)",
+    "int DemSoChan(int a, int b)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi05_A2",
+   "tieuDe": "Nhập lại đến khi hợp lệ",
+   "ham": [
+    "int NhapSoNguyenTrongKhoang(string loiNhac, int min, int max)",
+    "double NhapSoThucTrongKhoang(string loiNhac, double min, double max)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi05_A3",
+   "tieuDe": "Xử lý chữ số",
+   "ham": [
+    "int DemChuSo(int n)",
+    "int TongChuSo(int n)",
+    "int DaoSo(int n)",
+    "bool LaSoDoiXung(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi05_A4",
+   "tieuDe": "Bảng cửu chương và in hình",
+   "ham": [
+    "void InBangCuuChuong()",
+    "void InTamGiacVuong(int n)",
+    "void InHinhChuNhatRong(int rong, int cao)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi05_A5",
+   "tieuDe": "UCLN, BCNN và số nguyên tố",
+   "ham": [
+    "int UCLN(int a, int b)",
+    "int BCNN(int a, int b)",
+    "bool LaSoNguyenTo(int n)",
+    "int LietKeNguyenTo(int a, int b)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi05_A6",
+   "tieuDe": "Trò chơi đoán số",
+   "ham": [
+    "int NhapSoNguyenTrongKhoang(string loiNhac, int min, int max)",
+    "bool ChoiMotVan(int soBiMat, int soLuotToiDa)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi05_B1",
+   "tieuDe": "Tổng nghịch đảo",
+   "ham": [
+    "double TongNghichDao(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi05_B2",
+   "tieuDe": "Đếm và tính tổng các ước",
+   "ham": [
+    "int DemUoc(int n)",
+    "int TongUoc(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi05_B3",
+   "tieuDe": "Số hoàn hảo",
+   "ham": [
+    "int TongUoc(int n)",
+    "bool LaSoHoanHao(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi05_B4",
+   "tieuDe": "Tam giác sao rỗng",
+   "ham": [
+    "void InKimTuThapRong(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi05_B5",
+   "tieuDe": "Dãy Fibonacci",
+   "ham": [
+    "long Fibonacci(int k)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi05_B6",
+   "tieuDe": "Căn bậc hai bằng phương pháp Newton",
+   "ham": [
+    "double CanBacHai(double a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi05_B7",
+   "tieuDe": "Phân tích thừa số nguyên tố",
+   "ham": [
+    "string PhanTichThuaSo(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi05_B8",
+   "tieuDe": "Số Armstrong 3 chữ số",
+   "ham": [
+    "bool LaSoArmstrong(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  }
+ ],
+ "Buoi06": [
+  {
+   "bai": "A1",
+   "ten": "Buoi06_A1",
+   "tieuDe": "Nhập, xuất và thống kê mảng",
+   "ham": [
+    "int Tong(int[] a)",
+    "int ViTriLonNhat(int[] a)",
+    "int ViTriNhoNhat(int[] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi06_A2",
+   "tieuDe": "Đếm và tìm kiếm có điều kiện",
+   "ham": [
+    "int DemSoChan(int[] a)",
+    "int TimViTriCuoi(int[] a, int x)",
+    "int InMoiViTri(int[] a, int x)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi06_A3",
+   "tieuDe": "Đảo mảng và mảng đối xứng",
+   "ham": [
+    "void DaoMang(int[] a)",
+    "bool LaMangDoiXung(int[] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi06_A4",
+   "tieuDe": "Chèn, xóa phần tử",
+   "ham": [
+    "bool ChenPhanTu(int[] a, ref int n, int viTri, int x)",
+    "bool XoaPhanTu(int[] a, ref int n, int viTri)",
+    "void InMang(int[] a, int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi06_A5",
+   "tieuDe": "Sắp xếp chọn và tìm kiếm nhị phân",
+   "ham": [
+    "int SapXepChon(int[] a)",
+    "int TimNhiPhan(int[] a, int x, out int soBuoc)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi06_A6",
+   "tieuDe": "Thống kê điểm của lớp",
+   "ham": [
+    "double TrungBinh(double[] a)",
+    "double GiaTriLonNhat(double[] a)",
+    "void DemTheoLoai(double[] a, out int gioi, out int kha, out int tb, out int yeu)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi06_B1",
+   "tieuDe": "Các số nguyên tố trong mảng",
+   "ham": [
+    "bool LaSoNguyenTo(int n)",
+    "int InSoNguyenTo(int[] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi06_B2",
+   "tieuDe": "Phần tử lớn thứ hai",
+   "ham": [
+    "bool TimLonThuHai(int[] a, out int ketQua)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi06_B3",
+   "tieuDe": "Kiểm tra mảng tăng dần",
+   "ham": [
+    "bool LaTangDan(int[] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi06_B4",
+   "tieuDe": "Xóa mọi phần tử bằng x",
+   "ham": [
+    "void XoaMoiX(int[] a, ref int n, int x)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi06_B5",
+   "tieuDe": "Trộn hai mảng đã sắp xếp",
+   "ham": [
+    "int[] TronMang(int[] a, int[] b)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi06_B6",
+   "tieuDe": "Sắp xếp nổi bọt",
+   "ham": [
+    "int SapXepNoiBot(int[] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi06_B7",
+   "tieuDe": "Đoạn con tăng dài nhất",
+   "ham": [
+    "void TimDoanTangDaiNhat(int[] a, out int batDau, out int doDai)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi06_B8",
+   "tieuDe": "Tần suất xuất hiện",
+   "ham": [
+    "void DemTanSuat(int[] a, out int[] giaTri, out int[] soLan)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  }
+ ],
+ "Buoi07": [
+  {
+   "bai": "A1",
+   "ten": "Buoi07_A1",
+   "tieuDe": "Tổng dòng và tổng cột",
+   "ham": [
+    "int TongDong(int[,] a, int i)",
+    "int TongCot(int[,] a, int j)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi07_A2",
+   "tieuDe": "Lớn nhất, nhỏ nhất và vị trí",
+   "ham": [
+    "void TimLonNhat(int[,] a, out int dong, out int cot)",
+    "void TimNhoNhat(int[,] a, out int dong, out int cot)",
+    "int DemGiaTri(int[,] a, int x)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi07_A3",
+   "tieuDe": "Đường chéo và tam giác",
+   "ham": [
+    "int TongCheoChinh(int[,] a)",
+    "int TongCheoPhu(int[,] a)",
+    "int TongTamGiacTren(int[,] a)",
+    "int TongTamGiacDuoi(int[,] a)",
+    "bool LaTamGiacTren(int[,] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi07_A4",
+   "tieuDe": "Chuyển vị, cộng và nhân ma trận",
+   "ham": [
+    "int[,] ChuyenVi(int[,] a)",
+    "int[,] CongMaTran(int[,] a, int[,] b)",
+    "int[,] NhanMaTran(int[,] a, int[,] b)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi07_A5",
+   "tieuDe": "Mảng răng cưa: tam giác Pascal",
+   "ham": [
+    "int[][] TaoPascal(int soDong)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi07_A6",
+   "tieuDe": "Bảng điểm sinh viên × môn học",
+   "ham": [
+    "double TrungBinhDong(double[,] d, int i)",
+    "double TrungBinhCot(double[,] d, int j)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi07_B1",
+   "tieuDe": "Số âm, số dương từng dòng",
+   "ham": [
+    "void DemAmDuongDong(int[,] a, int i, out int soAm, out int soDuong)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi07_B2",
+   "tieuDe": "Ma trận đơn vị và ma trận đối xứng",
+   "ham": [
+    "int[,] TaoMaTranDonVi(int n)",
+    "bool LaDoiXung(int[,] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi07_B3",
+   "tieuDe": "Dòng, cột có tổng lớn nhất",
+   "ham": [
+    "int TongDong(int[,] a, int i)",
+    "int TongCot(int[,] a, int j)",
+    "int DongTongLonNhat(int[,] a)",
+    "int CotTongLonNhat(int[,] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi07_B4",
+   "tieuDe": "Xoay ma trận 90 độ",
+   "ham": [
+    "int[,] XoayPhai90(int[,] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi07_B5",
+   "tieuDe": "Điểm yên ngựa",
+   "ham": [
+    "bool LaNhoNhatDong(int[,] a, int i, int j)",
+    "bool LaLonNhatCot(int[,] a, int i, int j)",
+    "int InDiemYenNgua(int[,] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi07_B6",
+   "tieuDe": "Sắp xếp từng dòng của mảng răng cưa",
+   "ham": [
+    "void SapXepTungDong(int[][] a)",
+    "void SapXepTheoDoDai(int[][] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi07_B7",
+   "tieuDe": "Ma trận xoắn ốc",
+   "ham": [
+    "int[,] TaoXoanOc(int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi07_B8",
+   "tieuDe": "Trò chơi dò mìn",
+   "ham": [
+    "string[] DoMin(string[] banDo)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  }
+ ],
+ "Buoi08": [
+  {
+   "bai": "A1",
+   "ten": "Buoi08_A1",
+   "tieuDe": "Ghi và đọc tệp với lớp File",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi08_A2",
+   "tieuDe": "Thống kê tệp số với StreamReader",
+   "ham": [
+    "void ThongKeTep(string duongDan)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi08_A3",
+   "tieuDe": "Nhật ký có ghi thêm",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi08_A4",
+   "tieuDe": "Lưu và đọc ma trận",
+   "ham": [
+    "void GhiMaTran(string duongDan, int[,] a)",
+    "int[,] DocMaTran(string duongDan)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi08_A5",
+   "tieuDe": "Đọc tệp an toàn với try-catch",
+   "ham": [
+    "bool DocMangAnToan(string duongDan, out int[] a)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi08_A6",
+   "tieuDe": "Bảng điểm lưu bằng CSV",
+   "ham": [
+    "void GhiBangDiem(string duongDan, string[] mssv, double[,] diem)",
+    "void DocBangDiem(string duongDan, out string[] mssv, out double[,] diem)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi08_B1",
+   "tieuDe": "Đếm dòng, từ, ký tự",
+   "ham": [
+    "void DemTep(string duongDan, out int soDong, out int soTu, out int soKyTu)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi08_B2",
+   "tieuDe": "Sao chép tệp có đánh số dòng",
+   "ham": [
+    "void SaoChepDanhSo(string nguon, string dich)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi08_B3",
+   "tieuDe": "Lọc số nguyên tố từ tệp",
+   "ham": [
+    "bool LaSoNguyenTo(int n)",
+    "int LocSoNguyenTo(string nguon, string dich)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi08_B4",
+   "tieuDe": "Gộp hai tệp số đã sắp xếp",
+   "ham": [
+    "void GopTep(string tep1, string tep2, string tepKetQua)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi08_B5",
+   "tieuDe": "Tần suất chữ cái",
+   "ham": [
+    "int[] DemChuCai(string duongDan)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi08_B6",
+   "tieuDe": "Danh bạ điện thoại",
+   "ham": [
+    "bool LaSoDienThoaiHopLe(string sdt)",
+    "int DocDanhBa(string duongDan, string[] ten, string[] sdt)",
+    "void GhiDanhBa(string duongDan, string[] ten, string[] sdt, int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi08_B7",
+   "tieuDe": "Mã hóa Caesar tệp văn bản",
+   "ham": [
+    "string MaHoaCaesar(string s, int k)",
+    "void MaHoaTep(string nguon, string dich, int k)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi08_B8",
+   "tieuDe": "Báo cáo từ tệp CSV bán hàng",
+   "ham": [
+    "void BaoCaoBanHang(string duongDan, out string[] sanPham, out long[] doanhThu)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  }
+ ],
+ "Buoi09": [
+  {
+   "bai": "A1",
+   "ten": "Buoi09_A1",
+   "tieuDe": "struct SinhVien thay cho mảng song song",
+   "ham": [
+    "void SapXepGiamTheoDiem(SinhVien[] ds)"
+   ],
+   "kieu": [
+    "struct SinhVien"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "A2",
+   "ten": "Buoi09_A2",
+   "tieuDe": "enum và switch",
+   "ham": [
+    "XepLoai PhanLoai(double tb)",
+    "Thu ThuTrongTuan(int ngay, int thang, int nam)",
+    "string TenTiengViet(Thu t)"
+   ],
+   "kieu": [
+    "enum XepLoai",
+    "enum Thu"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "A3",
+   "ten": "Buoi09_A3",
+   "tieuDe": "class PhanSo có đóng gói",
+   "ham": [],
+   "kieu": [
+    "class PhanSo"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "A4",
+   "ten": "Buoi09_A4",
+   "tieuDe": "List<T> và Dictionary<K, V>",
+   "ham": [],
+   "kieu": [],
+   "mainTest": true
+  },
+  {
+   "bai": "A5",
+   "ten": "Buoi09_A5",
+   "tieuDe": "Hàm generic và lambda",
+   "ham": [
+    "T TimLonNhat<T>(T[] a) where T : IComparable<T>",
+    "int DemThoa<T>(T[] a, Predicate<T> dieuKien)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "A6",
+   "ten": "Buoi09_A6",
+   "tieuDe": "Quản lý sinh viên tổng hợp",
+   "ham": [
+    "List<SinhVien> DocTep(string tep)",
+    "void GhiTep(string tep, List<SinhVien> ds)"
+   ],
+   "kieu": [
+    "class SinhVien",
+    "enum XepLoai"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "B1",
+   "ten": "Buoi09_B1",
+   "tieuDe": "struct Diem2D và khoảng cách",
+   "ham": [
+    "double ChuViDaGiac(Diem2D[] ds)"
+   ],
+   "kieu": [
+    "struct Diem2D"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "B2",
+   "ten": "Buoi09_B2",
+   "tieuDe": "record SanPham, sắp xếp theo giá",
+   "ham": [
+    "void SapXepTheoGia(SanPham[] ds)",
+    "void SapXepTheoTen(SanPham[] ds)",
+    "SanPham GiamGia(SanPham sp, decimal phanTram)"
+   ],
+   "kieu": [
+    "record SanPham"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "B3",
+   "ten": "Buoi09_B3",
+   "tieuDe": "Xem từng byte của số nguyên (union)",
+   "ham": [],
+   "kieu": [
+    "struct BonByte"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "B4",
+   "ten": "Buoi09_B4",
+   "tieuDe": "Con trỏ: đảo mảng",
+   "ham": [
+    "unsafe void DaoMang(int* p, int n)"
+   ],
+   "kieu": [],
+   "mainTest": false
+  },
+  {
+   "bai": "B5",
+   "ten": "Buoi09_B5",
+   "tieuDe": "Lớp generic Cap<T1, T2>",
+   "ham": [
+    "Cap<int, int> TimMinMax(int[] a)"
+   ],
+   "kieu": [
+    "class Cap<T1, T2>"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "B6",
+   "ten": "Buoi09_B6",
+   "tieuDe": "Lọc và đếm bằng lambda",
+   "ham": [
+    "SinhVien[] LocGioi(SinhVien[] ds)",
+    "SinhVien TimDauTienDuoi5(SinhVien[] ds)",
+    "bool CoAiDat10(SinhVien[] ds)",
+    "void SapXepTheoTen(SinhVien[] ds)"
+   ],
+   "kieu": [
+    "struct SinhVien"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "B7",
+   "ten": "Buoi09_B7",
+   "tieuDe": "Lớp MaTran có toán tử + và *",
+   "ham": [],
+   "kieu": [
+    "class MaTran"
+   ],
+   "mainTest": false
+  },
+  {
+   "bai": "B8",
+   "ten": "Buoi09_B8",
+   "tieuDe": "Hàng đợi vòng generic",
+   "ham": [],
+   "kieu": [
+    "class HangDoiVong<T>"
+   ],
+   "mainTest": false
+  }
+ ]
+}

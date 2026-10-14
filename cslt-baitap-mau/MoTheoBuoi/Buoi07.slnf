@@ -1,0 +1,22 @@
+{
+  "solution": {
+    "path": "..\\BaiTapCSLT.sln",
+    "projects": [
+      "Buoi07\\Buoi07_A1\\Buoi07_A1.csproj",
+      "Buoi07\\Buoi07_A2\\Buoi07_A2.csproj",
+      "Buoi07\\Buoi07_A3\\Buoi07_A3.csproj",
+      "Buoi07\\Buoi07_A4\\Buoi07_A4.csproj",
+      "Buoi07\\Buoi07_A5\\Buoi07_A5.csproj",
+      "Buoi07\\Buoi07_A6\\Buoi07_A6.csproj",
+      "Buoi07\\Buoi07_B1\\Buoi07_B1.csproj",
+      "Buoi07\\Buoi07_B2\\Buoi07_B2.csproj",
+      "Buoi07\\Buoi07_B3\\Buoi07_B3.csproj",
+      "Buoi07\\Buoi07_B4\\Buoi07_B4.csproj",
+      "Buoi07\\Buoi07_B5\\Buoi07_B5.csproj",
+      "Buoi07\\Buoi07_B6\\Buoi07_B6.csproj",
+      "Buoi07\\Buoi07_B7\\Buoi07_B7.csproj",
+      "Buoi07\\Buoi07_B8\\Buoi07_B8.csproj",
+      "KiemThu\\Buoi07.KiemThu\\Buoi07.KiemThu.csproj"
+    ]
+  }
+}

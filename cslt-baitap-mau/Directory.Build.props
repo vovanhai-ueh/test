@@ -1,0 +1,9 @@
+<Project>
+  <!-- Cấu hình chung cho mọi project trong repo. KHÔNG SỬA TỆP NÀY. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+</Project>
